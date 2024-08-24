@@ -14,7 +14,7 @@ $(document).ready(function () {
       var sheetData = $.csv.toObjects(response);
       console.log(sheetData);
 
-      var html = "<table>";
+      var html = "<table id='list-table'>";
       html += "<tr><th>সংগঠনের/প্রদানকারীর নাম</th><th>পণ্যের বিবরণ</th><th>পরিমান (জন)</th><th>বিতরণের প্রস্তাবিত স্থান</th><th>প্রতিনিধিগনের নাম ও মোবাইল নং</th></tr>";
 
       // Iterate over each row of data and add it to the table
