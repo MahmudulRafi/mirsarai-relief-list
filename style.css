@@ -1,0 +1,54 @@
+@import url("https://fonts.maateen.me/kalpurush/font.css");
+
+body {
+  margin: 0;
+  font-family: "Kalpurush", Arial, sans-serif !important;
+  padding: 5px 23px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(198, 213, 175, 0.5),
+    rgb(161, 182, 161)
+  );
+  background-clip: 1;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(206, 212, 195, 0.9);
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.date {
+  text-align: center;
+  span {
+    color: indianred;
+  }
+}
+
+.body-content {
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.google-form-link{
+  color: indianred;
+  font-weight: 600;
+  font-size: 20px;
+}
