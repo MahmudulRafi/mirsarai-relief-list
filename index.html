@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="bn">
 
 <head>
   <title>মিরসরাই বিতরন তালিকা</title>
@@ -11,9 +11,8 @@
 </head>
 
 <body>
-
-  <h1 class="page-title">ত্রাণ সামগ্রী বিতরন তালিকা</h1>
-  <h3 class="date">তারিখঃ <span>২৫-০৮-২০২৪<span></h3>
+  <h1 class="page-title">মিরসরাই ত্রাণ সামগ্রী বিতরন তালিকা</h1>
+  <h3 class="date">তারিখঃ <span>২৫-০৮-২০২৪</span></h3>
   <p class="body-content">ইতিমধ্যে আমাদের মিরসরাইয়ে বন্যা পরিস্থিতির অবনতির কারণে অনেক মানুষ পানিবন্ধি হয়ে আছেন, অনেকে
     বিভিন্ন আশ্রয়কেন্দ্রে
     আশ্রয়ে আছেন। বিভিন্ন সেচ্ছাসেবী সংগঠন, রাজনৈতিক সংগঠন ও অনেকে ব্যক্তিগত উদ্যোগে ভুক্তভোগী মানুষদের সহায়তা করে
@@ -21,20 +20,29 @@
     উত্তরণ করার তৌফিক দিন। আপনাদের সকলকে এ কাজের উত্তম বিনিময় দান
     করুন। আমিন।</p>
 
-  <p class="body-content form-link">তালিকায় তথ্য প্রদান করুন এখানে - <a class="google-form-link" target="_blank"
-      href="https://forms.gle/1xpqC4XtaW5WMdkeA">Google Form Link</a></p>
-
-  <div id="list" style="overflow-x:auto;">
-    <table id="list-table">
-      <thead>
-
-      </thead>
-      <tbody>
-
-      </tbody>
-    </table>
-
+  <!-- Tab navigation -->
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Form')">তালিকায় তথ্য দিন</button>
+    <button class="tablinks" onclick="openTab(event, 'List')">তালিকা দেখুন</button>
   </div>
+
+  <!-- Tab content -->
+  <div id="Form" class="tabcontent">
+    <div class="iframe-container">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeo_a3OY-YD8QaaK3PTxozU8H1-NUnS54vd8mXnnxd4gq7v5Q/viewform?embedded=true" width="740" height="1660" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+  </div>
+
+  <div id="List" class="tabcontent">
+    <div id="list" style="overflow-x:auto;">
+      <table id="list-table">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
