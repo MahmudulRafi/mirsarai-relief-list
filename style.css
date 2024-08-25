@@ -36,7 +36,7 @@ body {
 }
 
 .tab button.active {
-  background-color: indianred;
+  background-color: #91d3cc;
 }
 
 /* Tab content styles */
