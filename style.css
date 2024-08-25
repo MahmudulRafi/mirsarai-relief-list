@@ -32,11 +32,11 @@ body {
 }
 
 .tab button:hover {
-  background-color: #91d3cc;
+  background-color: #ddd;
 }
 
 .tab button.active {
-  background-color: #91d3cc;
+  background-color: #ccc;
 }
 
 /* Tab content styles */
@@ -59,9 +59,15 @@ body {
 
 iframe {
   width: 100%;
-  max-width: 800px; /* Adjust to desired max width */
-  height: 600px; /* Adjust to desired height */
+  height: 600px; /* Adjust height as needed */
   border: none;
+}
+
+@media (max-width: 600px) {
+  /* Adjust iframe height on smaller screens if needed */
+  iframe {
+    height: 80vh; /* Makes the iframe height 80% of the viewport height */
+  }
 }
 
 /* Table styles */
